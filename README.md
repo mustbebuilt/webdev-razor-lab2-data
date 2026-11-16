@@ -17,6 +17,7 @@ In this lab, you will extend a clean ASP.NET Core Razor Pages web application in
 
 - [Requirements & Prerequisites](#-requirements--prerequisites)
 - [Quick Start](#-quick-start)
+- [Static Files](#-static-files)
 - [Lab Tutorial Syllabus](#-lab-tutorial-syllabus)
 - [Step-by-Step Instructions](#-step-by-step-instructions)
 - [Repository Structure](#-repository-structure)
@@ -63,6 +64,17 @@ dotnet run
 ```
 
 Open your browser to the local URL displayed in the terminal (typically `http://localhost:5000` or `https://localhost:5001`).
+
+---
+
+## 🗂 Static Files
+
+The application serves files from `wwwroot` using `app.MapStaticAssets()` and `.WithStaticAssets()` in `Program.cs`. You can use the static-file middleware as an alternative: replace those calls with `app.UseStaticFiles()` before mapping Razor Pages:
+
+```csharp
+app.UseStaticFiles();
+app.MapRazorPages();
+```
 
 ---
 
