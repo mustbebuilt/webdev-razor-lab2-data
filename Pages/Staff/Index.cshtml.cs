@@ -30,8 +30,6 @@ public class IndexModel : PageModel
     //    }
     // -------------------------------------------------------------------------
 
-    public string StatusMessage { get; set; } = "Database connection not yet configured. Follow Step 01 in the tutorial!";
-
     public void OnGet()
     {
         // Executes when student visits /Staff or /Staff/Index before Step 01 is completed
