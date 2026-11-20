@@ -31,7 +31,7 @@ In this lab, you will extend a clean ASP.NET Core Razor Pages web application in
 
 Before starting this lab, ensure you have:
 
-- **.NET 10 SDK** (or .NET 8.0+) - [Download .NET](https://dotnet.microsoft.com/download)
+- **.NET 10 SDK** - [Download .NET](https://dotnet.microsoft.com/download)
 - **Visual Studio Code** - [Download VS Code](https://code.visualstudio.com/)
   - Recommended extensions: *C# Dev Kit*, *SQLite Viewer* (optional)
 - **SQLite 3 CLI** (pre-installed on macOS/Linux; available via `winget install SQLite.SQLite` or package manager on Windows)
